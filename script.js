@@ -13,7 +13,7 @@ function randomizer () {
   randomNumber = parseInt(randomNumber)
 
   // compare user's guess with random number
-  if (userGuess == randomNumber) {
+  if (userGuess === randomNumber) {
     document.getElementById('answer').innerHTML = 'You win!'
   }
 }
